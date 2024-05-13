@@ -320,6 +320,8 @@ h1 {
 .heading-2 {
   font-size: 38px;
   color: rgba(40, 41, 56, 1);
+  font-weight: 600;
+  line-height: 56px;
 }
 .pare-1 {
   margin: 23px 0px 40px;
@@ -427,6 +429,47 @@ h1 {
   background: rgba(244, 246, 252, 1);
 }
 
+.margin-2 {
+  margin: 34px 0;
+}
+.heading-3 {
+  font-size: 34px;
+  color: rgba(40, 41, 56, 1);
+  font-weight: 600;
+  line-height: 46px;
+}
+.sec {
+  background: rgba(252, 217, 128, 0.1);
+  padding: 100px 0;
+}
+
+.sect {
+  padding: 100px 0;
+  background: rgba(244, 246, 252, 1);
+}
+
+.fa-brands {
+  color: rgba(40, 41, 56, 1);
+}
+
+.improve-2 {
+  font-size: 16px;
+  color: #2f3030 !important;
+}
+
+.improve-2:hover {
+  color: #2405f2 !important;
+}
+.build {
+  background: #fcd980;
+  color: #2f3030;
+  padding: 10px 30px;
+}
+
+.sec-1 {
+  padding: 100px 0;
+}
+
 @media (min-width: 576px) {
 }
 @media (min-width: 768px) {
@@ -503,6 +546,15 @@ h1 {
     width: 168px;
     right: 0px;
   }
+  .margin-2 {
+    margin: 8px 0;
+  }
+  .heading-3 {
+    font-size: 23px;
+    color: rgba(40, 41, 56, 1);
+    font-weight: 600;
+    line-height: 29px;
+  }
 }
 @media (min-width: 992px) {
   .card-hei {
@@ -552,6 +604,16 @@ h1 {
     height: 168px;
     width: 168px;
     right: 43px;
+  }
+
+  .heading-3 {
+    font-size: 34px;
+    color: rgba(40, 41, 56, 1);
+    font-weight: 600;
+    line-height: 46px;
+  }
+  .margin-2 {
+    margin: 34px 0;
   }
 }
 

@@ -23,7 +23,7 @@ a:hover {
   display: block;
 }
 header {
-  padding: 20px;
+  padding: 20px 0px;
   background: #1c1e53;
 }
 
@@ -372,6 +372,7 @@ h1 {
 
 .text-3 {
   font-size: 38px;
+  font-weight: 600;
 }
 .sec-6 {
   padding: 100px 0;
@@ -473,6 +474,41 @@ h1 {
 .sec-1 {
   padding: 100px 0;
 }
+.pedding {
+  padding-left: 0px;
+}
+.pedding-4 {
+  padding: 0px;
+}
+
+.font-1 {
+  font-size: 24px;
+}
+
+.border-4 {
+  border-bottom: 1px solid #dbdbe0;
+  border-bottom-width: 80px;
+}
+/* .circle-1,
+ul,
+li {
+  list-style: circle;
+} */
+
+.border-3 {
+  border-top: 1px solid #dbdbe0;
+  border-bottom: 1px solid #dbdbe0;
+  padding-top: 20px;
+}
+
+.read-1 a {
+  font-size: 18px;
+  color: #212424;
+}
+.read-1 a:hover {
+  color: #5239fa;
+  font-size: 24px;
+}
 
 @media (min-width: 576px) {
 }
@@ -558,6 +594,12 @@ h1 {
     color: rgba(40, 41, 56, 1);
     font-weight: 600;
     line-height: 29px;
+  }
+  .pedding {
+    padding-left: 48px;
+  }
+  .pedding-4 {
+    padding: 48px;
   }
 }
 @media (min-width: 992px) {
@@ -645,6 +687,12 @@ h1 {
   .padding-2 {
     margin-bottom: 0px;
     padding: 25px 0px;
+  }
+  .pedding {
+    padding-left: 48px;
+  }
+  .pedding-4 {
+    padding: 48px;
   }
 }
 
